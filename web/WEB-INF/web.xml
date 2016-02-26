@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	 version="3.1">
+<display-name>Ejemplo</display-name>
+    <description>
+      Servlets de ejemplo.
+    </description>
+    <servlet>
+        <servlet-name>EchoRequest</servlet-name>
+        <servlet-class>EchoRequest</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EchoRequest</servlet-name>
+        <url-pattern>/servlet/EchoRequest</url-pattern>
+    </servlet-mapping>
+
+</web-app>
