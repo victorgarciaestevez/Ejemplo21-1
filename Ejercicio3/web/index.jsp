@@ -7,7 +7,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>Ejercicio3</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
@@ -24,7 +24,7 @@ and open the template in the editor.
                 display: inline-block;
                 float: left;
                 clear: left;
-                width: 300px;
+                width: 310px;
                 text-align: right;
             }
             input {
@@ -63,7 +63,7 @@ and open the template in the editor.
                         Contenido += "<tr><td>" + (num) + " * " + i + "</td>";
                         Contenido += "<td>" + (num) * i + "</td></tr>";
                     }
-                    Contenido += "</table><br><p style='text-align: right;'>El cholas Prof. J.Neftalí®</p>";
+                    Contenido += "</table>";
                 }
             %>
             
