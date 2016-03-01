@@ -20,6 +20,18 @@ and open the template in the editor.
                 text-align: center;
                 margin: 0px;
             }
+            label{
+                display: inline-block;
+                float: left;
+                clear: left;
+                width: 300px;
+                text-align: right;
+            }
+            input {
+                display: inline-block;
+                float: left;
+                
+            }
         </style>
     </head>
     <body>
@@ -36,7 +48,8 @@ and open the template in the editor.
             
             <label for="num">Establece un límite de la tabla</label>
             <input type="number" required id="rep" name="rep"><br>
-            
+            <br>
+            <br>
             <input type="submit" value="Crear tabla">
         </form>
         <div>
