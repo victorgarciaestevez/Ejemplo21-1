@@ -35,22 +35,22 @@ and open the template in the editor.
             <fieldset>
                 <legend>Nombre</legend>
             <label for="num">Introduce el nombre: </label>
-            <input type="text" required pattern=".{6,}" id="num" name="num"><br>
+            <input type="text" required pattern=".{6,}" id="num" name="num"> ( Más de 6 caracteres )<br>
             </fieldset>
             
             <fieldset>
                 <legend>Apellidos</legend>
             <label for="num">Introduce apellidos: </label>
-            <input type="text" required pattern=".{10,}" id="rep" name="rep"><br>
+            <input type="text" required pattern=".{10,}" id="rep" name="rep"> ( Más de 10 caracteres )<br>
             </fieldset>
             
             <fieldset>
-                <legend>Correo</legend>
+                <legend>Dirección de correo</legend>
             <label for="num">Introduce la dirección: </label>
-            <input type="text" required pattern=".{10,}" id="rep" name="email"><br>
+            <input type="text" required pattern=".{10,}" id="rep" name="email"> ( Más de 10 caracteres )<br>
             </fieldset>
             
-            <input type="submit" value="Calcular">
+            <input type="submit" value="Aceptar">
         </form>
         <div>
             <%

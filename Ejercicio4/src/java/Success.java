@@ -37,7 +37,7 @@ public class Success extends HttpServlet {
             out.println("<title>Servlet Success</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Todo OK</h1>");
+            out.println("<h1>Los datos son correctos! ^L^)</h1>");
             out.println("</body>");
             out.println("</html>");
         }
