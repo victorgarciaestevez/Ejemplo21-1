@@ -32,10 +32,10 @@ and open the template in the editor.
         %>
         <form action="index.jsp" method="GET">
             <label for="num">Introduce un número</label>
-            <input type="text" id="num" name="num"><br>
+            <input type="number" required id="num" name="num"><br>
             
             <label for="num">Establece un límite de la tabla</label>
-            <input type="text" id="rep" name="rep"><br>
+            <input type="number" required id="rep" name="rep"><br>
             
             <input type="submit" value="Crear tabla">
         </form>
