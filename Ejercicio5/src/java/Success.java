@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  *
- * @author alumno
+ * @author Martino Fabio
  */
 public class Success extends HttpServlet {
 
@@ -34,19 +34,30 @@ public class Success extends HttpServlet {
             String dolor = request.getParameter("dolor");
             String intento = "";
             
-            if("ca".equals(dolor)) intento = "Intentar con: Termalgin";
-            if("mi".equals(dolor)) intento = "Intentar con: Cannabis";
-            if("lum".equals(dolor)) intento = "Intentar con: Trombocid";
-            if("cer".equals(dolor)) intento = "Intentar con: Fisioterapia";
-            
-            /* TODO output your page here. You may use following sample code. */
+            if("ca".equals(dolor)) {
+                intento = "Intentar con: Termalgin";
+            }
+            else if("mi".equals(dolor)) {
+                intento = "Intenta cortar la cabeza";
+            }
+            else if("lum".equals(dolor)) {
+                intento = "Busca un especialista";
+            }
+            else if("cer".equals(dolor)) {
+                intento = "Si nunca te mueves es logico que te pasa todo esto";
+            }
+            else if("re".equals(dolor)) {
+                intento = "Los recorciolis lo encuentras en una cantina";
+            }
+
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet Success</title>");            
+            out.println("<title>Resultado</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>" + intento +"</h1>");
+            out.println("<h1>Tarea de DSW</h1><br>");
+            out.println("<h3>" + intento +"</h3>");
             out.println("</body>");
             out.println("</html>");
         }
